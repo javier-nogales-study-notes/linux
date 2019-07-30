@@ -10,6 +10,7 @@
   * `StartupWMClass=` Every X window has it's own class for identification purposes. (!)-> All windows with the same class are grouped together.
   * `Comment=` When you mouse over launchers in most desktops, a small dialog box will appear with a short description of the program. 
   * `GenericName=` Most desktops also support generic names for programs. These usually just say what the program is.
+  * `Version=` The version of the desktop entry specification to which this file complies.
   #### 3.2. Execution:
   * `Exec=` The command should really just point to the executable file that you want to run with the launcher and include any options that you want to pass when it's run. If you were to copy that command into the terminal and run it, the browser would open. That's exactly the behavior that you're looking for. 
   * `Terminal=` Describes whether this application needs to be run in a terminal or not. Values `True/False`
