@@ -17,8 +17,8 @@
   * `Icon=` Launcher path image, PNGs with a transparent background work best.
   #### 3.4. Type And Catagories
   The type and categories values tell any menus where to place your launcher. The type tells the desktop environment if the desktop entry is for an application, link, or directory. The categories value lets it know which categories to place your launcher under. Check oficial [specification](https://standards.freedesktop.org/menu-spec/latest/apa.html)
-  * `Type=` Program type, application;
-  * `Category=` Program category, network;webBrowser;
+  * `Type=` Program type.
+  * `Category=` Program category(ies).
   #### 3.5. MIME Types
   MIME types tell the desktop environment which files to associate with the application. These are organized by category, then by extension. You can have as many as you like.  
   * `MimeType=` Mime type of files which associate with the application.
